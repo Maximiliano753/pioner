@@ -1,0 +1,183 @@
+
+body{
+    overflow-x: hidden;
+}
+.nav{
+    display: flex;
+    padding: 0 5px;
+    
+}
+
+.item ,.call-me{
+    flex: 1 1 auto;
+    margin: 0 5px;
+    font-size: large;
+    padding: 20px;
+    margin-left: 20px;
+    
+    font-size: 40px;
+}
+
+.item a {
+    color: black;
+}
+.call-me a {
+    color: black;
+    color: rgb(15, 160, 222);
+}
+
+
+.call-me{
+    color: darkcyan;
+}
+
+p{
+    display: flex;
+    width: 300px;
+    height: 70px;
+   float: right;
+   /* background-color: blue; */
+}
+
+.text{
+    
+    font-size: 48px;
+    font-family: Consolas, "Courier New", monospace;
+    height: 70px;
+    width: 700px;
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+    padding: 40px;
+    
+}
+
+.work{
+    margin-left: 45px;
+    width: 1400px;
+}
+.about-company{
+    display: flex;
+    width: 1400px;
+    height: 300px;
+    margin-left: 20px;
+    
+    
+    
+}
+.about-company .block2{
+    padding-left: 20px;
+    width: 700px;
+    height: 150px;
+    
+    
+}
+
+.about-company .block1{
+    padding-left: 20px;
+    width: 700px;
+    height: 150px;
+    padding-bottom: 5px;
+    
+}
+
+
+.img-work img{
+    width: 700px;
+    height: 500px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+}
+.products {
+    display: flex; /* Используем Flexbox для контейнера продуктов */
+    flex-wrap: wrap; /* Позволяем элементам переноситься на новую строку */
+    gap: 20px; /* Отступы между элементами */
+    margin-left: 20px;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    display: flex; /* Используем Flexbox для каждого элемента */
+    flex-direction: column; /* Располагаем элементы вертикально */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    border: 1px solid #ccc; /* Рамка для элемента */
+    padding: 10px; /* Внутренние отступы */
+    height: 300px; /* Задаем высоту для блока */
+    box-sizing: border-box; /* Учитываем рамку и отступы в высоте блока */
+    background-color: azure;
+    border-radius: 5%;
+}
+
+.text-products {
+    margin-top: auto; /* Отталкиваем от верхней части блока */
+    text-align: center; /* Центрируем текст */
+    font-style: monospace;
+    font-size: 20px;
+}
+
+a {
+    margin-top: 10px; /* Отступ сверху для ссылки */
+    text-align: center; /* Центрируем текст ссылки */
+    text-decoration: none;
+    font-size: 16px;
+}
+.news{
+    display: flex; /* Используем Flexbox для контейнера продуктов */
+    gap: 20px; /* Отступы между элементами */
+    margin-left: 20px;
+    width: 200px;
+    height: 400px;
+}
+.item-news {
+    display: flex; /* Используем Flexbox */
+    flex-direction: column; /* Располагаем элементы вертикально */
+    justify-content: space-between; /* Распределяем пространство между элементами */
+    align-items: flex-start; /* Выравниваем элементы по левому краю */
+    border: 1px solid #ccc; /* Пример рамки */
+    padding: 10px; /* Внутренние отступы */
+    height: 400px; /* Задаем высоту для блока */
+    border-radius: 5%;
+}
+
+.item-news a {
+    margin-top: auto; /* Отталкиваем ссылку к нижней границе */
+}
+.logo {
+    display: flex; /* Используем Flexbox для контейнера */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: space-between; /* Распределяем пространство между логотипом и текстом */
+    padding: 10px; /* Отступы вокруг контейнера */
+    width: 100%; /* Занимаем всю ширину родительского элемента */
+    margin-left: 20px;
+}
+
+.text-container {
+    display: flex; /* Flexbox для текстовых элементов */
+    flex-direction: row; /* Вертикальное расположение элементов */
+    margin-left: auto; /* Отталкиваем текст от логотипа */
+}
+
+.contacts, .consult {
+    margin: 0; /* Убираем отступы по умолчанию */
+}
+
+.consult {
+    margin-right: 25px; /* Небольшой отступ сверху для consult */
+    margin-left: 50px;
+}
+.contacts .text-contacts{
+    color: rgb(15, 160, 222);
+    font-size: 20px;
+}
+
+.consult .text-contacts{
+    color: rgb(15, 160, 222);
+    font-size: 20px;
+}
+
+
+
+
